@@ -7,6 +7,7 @@ const signupmodel = require("./models/signupmodel");
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config()
+
 const passport = require('./config/passport'); // Load the passport configuration
 
 const app = express();
